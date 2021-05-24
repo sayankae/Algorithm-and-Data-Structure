@@ -2,3 +2,4 @@
 This contain algorithm and data structure from easy to hard level.
 -  Binary Search 
 -  Linear Search
+-  Ternary Search
