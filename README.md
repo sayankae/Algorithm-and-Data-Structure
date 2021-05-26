@@ -4,3 +4,6 @@ This contain algorithm and data structure from easy to hard level.
 -  Linear Search
 -  Ternary Search
 -  Interpolation Search
+-  Insertion Sort
+-  Selection Sort
+-  Merge Sort
