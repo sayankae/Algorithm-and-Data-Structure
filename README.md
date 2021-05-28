@@ -7,3 +7,4 @@ This contain algorithm and data structure from easy to hard level.
 -  Insertion Sort
 -  Selection Sort
 -  Merge Sort
+-  Quick Sort
