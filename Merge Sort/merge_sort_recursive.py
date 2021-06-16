@@ -3,14 +3,13 @@
 #It sort the elements by using divide and conquer method 
 #Time complexity is O(nlogn) and Auxilary Space required is O(n)
 
-def mergeSort(arr,left,right):
-    if left<right:
-        pivot = (left+right)//2
+def mergeSort(arr):
+    if len(arr)>1:
         mid = (len(arr))//2
         left_part = arr[:mid]
         right_part = arr[mid::]
-        mergeSort(left_part,left,pivot)
-        mergeSort(right_part,pivot+1,right)
+        mergeSort(left_part)
+        mergeSort(right_part)
         i = 0
         j = 0
         k = 0
@@ -37,6 +36,6 @@ def mergeSort(arr,left,right):
 
 if __name__ == "__main__":
     arr = [1,19,3,10,7,9,45,4,222]
-    print(mergeSort(arr,0,len(arr)-1))
+    print(mergeSort(arr)
 else:
     pass
